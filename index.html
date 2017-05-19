@@ -16,10 +16,49 @@
 			<img class="mensaje" src="assets/img/bienvenida.png" alt="">
 		</div>
 	</section>
+
 	<!--Seccion Newsletter -->
 	<section class="color">
+		<div>
+			<h1>¿TE GUSTA EL TÉ?</h1>
+		</div>
+		<div class="name-container input-box">
+			<label for="name" class="sr-only" >Nombre:</label><br>
+			<input type="text" id="name" class="form-control"
+			placeholder="Escribe tu nombre">
+		</div>
+
+		<div class="email-container input-box">
+			<label for="inputEmail" class="sr-only">Email:</label><br>
+			<input type="email" id="input-email" class="form-control" placeholder="Escribe tu email">
+		</div>
+
+		<div class="direction-container input-box">
+			<label for="inputDirection" class="sr-only">Dirección:</label><br>
+			<input type="text" id="direction" class="form-control" placeholder="Escribe tu dirección">
+		</div>
+
+		<div class="form-group input-box">
+			<h2>Té favorito:</h2>
+			<select class="form-control">
+				<option value="0">Selecciona tu té</option>
+				<option value="negro">Negro</option>
+				<option value="verde">Verde</option>
+				<option value="rojo">Rojo</option>
+				<option value="blanco">Blanco</option>
+				<option value="Oolong">Oolong</option>
+			</select>
+		</div>
+			<br>
+		<div class="checkbox ">
+			<label>
+				<input type="checkbox" value="remember-me">
+				<span>Quiero recibir muestras gratis</span>
+			</label>
+		</div>
+
 		<div class="newsletter">
-			<button id="suscribirse">Suscribete a nuestro newsletter</button>		
+			<button id="boton" class="btn btn-lg btn-primary btn-block submit-btn" onclick="validar()" >Suscribete a nuestro Newsletter</button>		
 		</div>
 	</section>
 
@@ -49,13 +88,13 @@
 				<p>Para la depresión, la melancolía y el mal humor. Adicionalmente facilita la digestión, ayuda a desintoxicar el organismo.</p>
 			</div>
 			<div class="tipo-de-te">
-			<h2>Blanco</h2>
-			<p>Disminuye la actividad de las enzimas que disminuyen la producción de elastina y colágeno en nuestra piel.</p>
-		</div>
-		<div class="tipo-de-te">
-			<h2>Oolong</h2>
-			<p>Puede disminuir el nivel de colesterol en la sangre y también está recomendado para bajar de peso.</p>
-		</div>	
+				<h2>Blanco</h2>
+				<p>Disminuye la actividad de las enzimas que disminuyen la producción de elastina y colágeno en nuestra piel.</p>
+			</div>
+			<div class="tipo-de-te">
+				<h2>Oolong</h2>
+				<p>Puede disminuir el nivel de colesterol en la sangre y también está recomendado para bajar de peso.</p>
+			</div>	
 		</div>	
 	</section>
 	<!--Seccion disfruta -->
@@ -63,12 +102,13 @@
 		<div class="logo" src="assets/img/logo.png" alt="logo">
 		</div>
 		<div class="contenido">
-		<h1>Disfruta <br> el sabor del té</h1>
+			<h1>Disfruta <br> el sabor del té</h1>
 		</div>
 	</section>
 	<!-- -->
 	<footer>
 		<p>Té Encanto: Av. Italia 1317, Providencia.</p>
 	</footer>
+	<script type="text/javascript" src="assets/js/main.js" ></script>
 </body>
 </html>
